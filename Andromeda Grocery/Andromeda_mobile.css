@@ -1,0 +1,645 @@
+
+@media screen and (max-width: 475px) and (min-width: 1600px),(orientation: landscape),(orientation: portrait){
+    
+    *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    ::-webkit-scrollbar{
+        width: 10px;
+        height: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: hsl(160 75% 50% / 1);
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background-color: hsl(40, 97%, 60%);
+        border-radius: 3px;
+        
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background-color: hsl(260, 96%, 44%);
+    }
+    
+    body{
+        background-color: rgb(0,0,0,.5);
+    }
+    
+    html{
+        background-image: url('graphiti-19556172.jpg');
+        background-size: cover;
+    }
+    
+    header{
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px rgb(0,255,244,0.60);
+        background-image: url('galaxy_arch.jpeg');
+        background-size: cover;
+        height: 150px;
+        border-bottom: 4px solid red;
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Silkscreen', sans-serif;
+    }
+    h4{
+        text-decoration: underline;
+    }
+    
+    
+    #addr{
+        display: flex;
+        font-size: 14px;
+        color: white;
+        text-shadow: 2px 2px black;
+        font-family: 'Silkscreen', sans-serif;
+        justify-content: center;
+        position: relative;
+        margin-right: .5rem;
+    
+    }
+    
+    .navigation{
+        color: white;
+        display: flex;
+        background-color: rgb(2, 4, 58);
+        margin-bottom: 10px;
+        height: 50px;
+        border-bottom: 1px solid white;
+        }
+       
+        .dropbtn {
+            background-color: #eda812e6;
+            color: white;
+            width: 85px;
+            height: 20px;
+            font-size: 12px;
+            display: block;
+            text-align: center;
+            border: none;
+            position: relative;
+            margin-left: 13rem;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            box-shadow: none;
+            
+          }
+          
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: relative;
+            /*background-color: #f1f1f1;*/
+            font-size: 12px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            margin-left: 13rem;
+            width: 85px;
+            
+          }
+          
+          .dropdown-content a {
+            color: white;
+            background-color: #4c9df9ec;
+            height: 25px;
+            width: 85px;
+            padding: 5px 0px 0px 25px;
+            text-decoration: none;
+            display: block;
+            position: relative;
+            font-size: 14px;
+    
+          }
+          
+          
+          .dropdown-content a:hover {
+            background-color: orange;
+            color: white;
+        }
+          
+          .dropdown:hover .dropdown-content {display: block;}
+          
+          .dropdown:hover .dropbtn {
+            background-color: aqua;
+            color: rgb(2,4,58);
+        }   
+        
+    
+    .item_Slot{
+        width: 22.5rem;
+        height: 3rem;
+        padding-top: 8px;
+        border: 1px solid black;
+        box-shadow: 0px 4px 4px 0px aqua;
+        background-image: linear-gradient(45deg, rgb(27, 5, 107), lightgrey,rgb(74, 195, 247));
+        text-align: center;
+        position: relative;
+        border-radius: 10px;
+        font-family: 'Silkscreen',sans-serif;
+        font-size: 1rem;
+        text-shadow: 1px 1px aqua;
+        color: black;
+        margin-top: 2rem;
+        margin-right: 20rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+    }   
+    
+    
+    .tabaccoContainer{
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 40%;
+        border: 1px solid black;
+    }
+    
+    
+    .drinksContainer{
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 40%;
+        border: 1px solid black;
+    }
+    
+    .snacksContainer{
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 40%;
+        border: 1px solid black;
+    }
+    
+    .foodContainer{
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 40%;
+        border: 1px solid black;
+    }
+    
+    .miscContainer{
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 40%;
+        border: 1px solid black;
+    }
+    
+    footer{
+        height: 100px;
+        font-size: 20px;
+        color: black;
+        text-shadow: 2px 2px aqua;
+        text-align: center;
+        font-family: 'Silkscreen',sans-serif;
+        background-image: radial-gradient(white,white, rgb(122, 122, 122));
+        background-size: cover;
+        margin-top: 1rem;
+        border: 3px solid rgb(2,4,58);
+    }
+    .trademark{
+        color: white;
+        margin-left: 5px;
+    }
+    #agreement{
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+    }
+    .validation{
+        position: relative;
+        margin-top: 10px;
+        /*margin-left: 70rem;*/
+    }
+    
+    span{
+        display: none;
+        margin-left: 6rem;
+        background-color: white;
+        border: 1px solid rgb(2,4,58);
+        border-radius: 2px;
+        font-size: 1.25rem;
+        font-weight: bold;
+        width: 65px;
+        position: absolute;
+        justify-content: center;
+        box-shadow: 4px 0px 4px 0px rgb(0, 251, 213, 0.922);
+    }
+    #symbol{
+        display: none;
+        margin-left: 6rem;
+        background-color: white;
+        border: 1px solid rgb(2,4,58);
+        border-radius: 2px;
+        font-size: 1.25rem;
+        font-weight: bold;
+        width: 65px;
+        position: absolute;
+        justify-content: center;
+    }
+    .Tcards{
+        height: 6rem;
+        width: 6rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        background-color: darkgray;
+        color: rgb(255, 0, 0);
+        text-shadow: .5px .5px black;
+        border: 2px solid rgb(2,4,58);
+        writing-mode:horizontal-tb;
+        text-orientation:sideways;
+        box-shadow: 4px 0px 4px 0px rgb(0, 251, 213, 0.922);
+        
+    }
+    .Tcards:hover span, #buybtn, #symbol{
+        display: flex;
+    }
+    
+    
+    .Dcards{
+        height: 6rem;
+        width: 6rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        background-color: darkgray;
+        color: rgb(255, 0, 0);
+        text-shadow: .5px .5px black;
+        border: 2px solid rgb(2,4,58);
+        writing-mode:horizontal-tb;
+        text-orientation:sideways;
+        box-shadow: 4px 0px 4px 0px rgb(0, 251, 213, 0.922);
+    }
+    .Dcards:hover span, #symbol{
+        display: flex;
+    }
+    
+    .Scards{
+        height: 6rem;
+        width: 6rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        background-color: darkgray;
+        color: rgb(255, 0, 0);
+        text-shadow: .5px .5px black;
+        border: 2px solid rgb(2,4,58);
+        writing-mode:horizontal-tb;
+        text-orientation:sideways;
+        box-shadow: 4px 0px 4px 0px rgb(0, 251, 213, 0.922);
+    }
+    .Scards:hover span{
+        display: flex;
+    }
+    
+    .Fcards{
+        height: 6rem;
+        width: 6rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        background-color: darkgray;
+        color: rgb(255, 0, 0);
+        text-shadow: .5px .5px black;
+        border: 2px solid rgb(2,4,58);
+        writing-mode:horizontal-tb;
+        text-orientation:sideways;
+        box-shadow: 4px 0px 4px 0px rgb(0, 251, 213, 0.922);
+    }
+    .Fcards:hover span{
+        display: flex;
+    }
+    
+    .Mcards{
+        height: 6rem;
+        width: 6rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        background-color: darkgray;
+        color: rgb(255, 0, 0);
+        text-shadow: .5px .5px black;
+        border: 2px solid rgb(2,4,58);
+        writing-mode:horizontal-tb;
+        text-orientation:sideways;
+        box-shadow: 4px 0px 4px 0px rgb(0, 251, 213, 0.922);
+    }
+    .Mcards:hover span{
+        display: flex;
+    }
+    /*--Register--*/
+    .register{
+        width: 400px;
+        height: 200px;
+        border-radius: 20%;
+        background-color: black;
+        border: 3px solid darkgray;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        padding-top: 12px;
+        padding: 3px;
+        
+        
+    }
+    #regText{
+        color: rgb(62, 230, 20);
+        font-size: 15px;
+        position: relative;
+        display: grid;
+        justify-content: center;
+        opacity: .7;
+        margin-top: 10px;
+    }
+
+    #display{
+        margin-left: 5px;
+    }
+    
+    .register-display{
+        color: rgb(62, 230, 20);
+        width: 50px;
+        height: 35px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        overflow-x: contain;
+        font-size: 22px;
+    }
+    
+    #Tcard1{
+        background-image: url('marlboro.jpg');
+        background-size: cover;
+    }
+    
+    #Tcard2{
+        background-image: url('marlboromenthol.jpeg');
+        background-size: cover;
+    }
+    #Tcard3{
+        background-image: url('marlborolight.jpg');
+        background-size: cover;
+    }
+    #Tcard4{
+        background-image: url('newportred.jpg');
+        background-size: contain;
+    }
+    #Tcard5{
+        background-image: url('newports.jpeg');
+        background-size:cover;
+    }
+    #Tcard6{
+        background-image: url('americanspirit.jpg');
+        background-size: cover;
+    }
+    #Tcard7{
+        background-image: url('americanspirit2.jpg');
+        background-size: cover;
+    }
+    #Tcard8{
+        background-image: url('seneca.jpg');
+        background-size: cover;
+        background-color: white; 
+        writing-mode: horizontal-tb;
+    }
+    #Tcard9{
+        background-image: url('phillieblunts.jpg');
+        background-size: cover; 
+        writing-mode: horizontal-tb;
+    }
+    #Tcard10{
+        background-image: url('optimoblunts.jpg');
+        background-size: cover;
+        writing-mode: horizontal-tb;
+    }
+    #Tcard11{
+        background-image: url('.jpg');
+        background-size: cover;
+    }
+    #Tcard12{
+        background-image: url('.jpg');
+        background-size: cover;
+    }
+    #Tcard13{
+        background-image: url('.jpg');
+        background-size: cover;
+    }
+    #Tcard14{
+        background-image: url('.jpg');
+        background-size: cover;
+    }
+    #Tcard15{
+        background-image: url('.jpg');
+        background-size: cover;
+    }
+    #Tcard16{
+        background-image: url('.jpg');
+        background-size: cover;
+    }
+    #Tcard17{
+        background-image: url('.jpg');
+        background-size: cover;
+    }
+    #Tcard18{
+        background-image: url('.jpg');
+        background-size: cover;
+    }
+    #Tcard19{
+        background-image: url('.jpg');
+        background-size: cover;
+    }
+    #Tcard20{
+        background-image: url('');
+        background-size: cover;
+    }
+    #Tcard21{
+        background-image: url('');
+        background-size: cover;
+    }
+    #Tcard22{
+        background-image: url('');
+        background-size: cover;
+    }
+    #Tcard23{
+        background-image: url('');
+        background-size: cover;
+    }
+    #Tcard24{
+        background-image: url('');
+        background-size: cover;
+    }
+    
+    
+    #Dcard1{
+        background-image: url('coke.jpeg');
+        background-size: cover;
+    }
+    #Dcard2{
+        background-image: url('sprite.jpeg');
+        background-size: cover;
+    }
+    #Dcard3{
+        background-image: url('mtDew.jpeg');
+        background-size: cover;
+    }
+    
+    #Dcard4{
+        background-image: url('pepsi.jpeg');
+        background-size: cover;
+    }
+    #Dcard5{
+        background-image: url('');
+        background-size: cover;
+    }
+    #Dcard6{
+        background-image: url('');
+        background-size: cover;
+    }
+    #Dcard7{
+        background-image: url('');
+        background-size: cover;
+    }
+    #Dcard8{
+        background-image: url('');
+        background-size: cover;
+    }
+    #Dcard9{
+        background-image: url('');
+        background-size: cover;
+    }
+    #Dcard10{
+        background-image: url('');
+        background-size: cover;
+    }
+    #Dcard11{
+        background-image: url('');
+        background-size: cover;
+    }
+    #Dcard12{
+        background-image: url('');
+        background-size: cover;
+    }
+    
+    #Scard1{
+        background-image: url('doritos.jpeg');
+        background-size: cover;
+    }
+    #Scard2{
+        background-image: url('fritos.jpeg');
+        background-size: cover;
+    }
+    #Scard3{
+        background-image: url('lays.jpeg');
+        background-size: cover;
+    }
+    
+    /*-----------Buy buttons------------*/
+    
+    button{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-left: 6rem;
+        background-color: white;
+        color: red;
+        border: 1px solid rgb(2,4,58);
+        border-radius: 2px;
+        font-size: 1.25rem;
+        text-shadow: .5px .5px .5px black;
+        width: 65px;
+        position: absolute;
+        box-shadow: 4px 0px 4px 0px rgb(0, 251, 213, 0.922);
+    }
+    button:hover{
+        background-color: rgba(225, 255, 0, 0.758);
+    }
+    /*----Register Buttons----*/
+    #clearbtn{
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        margin-right: 14rem;
+        background-color: rgb(48, 48, 48);
+        color: red;
+        border: 1px solid rgb(89, 89, 90);
+        border-radius: 2px;
+        font-size: 13px;
+        text-shadow: .5px .5px .5px black;
+        width: 55px;
+        height: 20px;
+        position: absolute;
+        padding-top: 2px;
+    }
+    #clearbtn:hover{
+        background-color: rgba(225, 255, 0, 0.758);
+    }
+    
+    #itemsbtn{
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        margin-left: 8rem;
+        background-color: rgb(48, 48, 48);
+        color: red;
+        border: 1px solid rgb(89, 89, 90);
+        border-radius: 2px;
+        font-size: 13px;
+        text-shadow: .5px .5px .5px black;
+        width: 55px;
+        height: 20px;
+        position: absolute;
+        padding-top: 2px;
+    }
+    #itemsbtn:hover{
+        background-color: rgba(225, 255, 0, 0.758);
+    }
+    
+    #totalbtn{
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        margin-right: 6rem;
+        background-color: rgb(48, 48, 48);
+        color: red;
+        border: 1px solid rgb(89, 89, 90);
+        border-radius: 2px;
+        font-size: 13px;
+        text-shadow: .5px .5px .5px black;
+        width: 55px;
+        height: 20px;
+        position: absolute;
+        padding-top: 2px;
+    }
+    #totalbtn:hover{
+        background-color: rgba(225, 255, 0, 0.758);
+    }
+    
+    }
